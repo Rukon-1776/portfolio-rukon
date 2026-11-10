@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Md. Rukonozzaman Rukon | Statistician &amp; Survey Researcher</title>
+<meta name="description" content="Portfolio of Md. Rukonozzaman Rukon, a statistician and staff researcher at BRAC IED working on survey research, data analysis and health and education studies in Bangladesh.">
+<meta property="og:title" content="Md. Rukonozzaman Rukon | Statistician &amp; Survey Researcher">
+<meta property="og:image" content="assets/portrait.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Spectral:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f8fa; --panel: #e5edf1; --ink: #0f1b2d; --muted: #4c5b6e; --line: #c9d5dd;
+    --accent: #0a6f6a; --accent-ink: #fff;
+    --head: "Spectral", Georgia, serif; --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#0e161f; --panel:#17222d; --ink:#e7edf3; --muted:#9bacbd; --line:#2a3846; --accent:#4fc3b8; --accent-ink:#0e161f; }
+  }
+  :root[data-theme="dark"] { --bg:#0e161f; --panel:#17222d; --ink:#e7edf3; --muted:#9bacbd; --line:#2a3846; --accent:#4fc3b8; --accent-ink:#0e161f; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.7 var(--body); }
+  img { max-width: 100%; display: block; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .wrap { width: min(1080px, 100% - 2.5rem); margin: 0 auto; }
+
+  header.top { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header.top .wrap { display: flex; align-items: center; gap: 1.5rem; height: 3.5rem; }
+  .brand { font: 700 1.05rem var(--head); color: var(--ink); text-decoration: none; white-space: nowrap; }
+  header nav { display: flex; gap: 1.1rem; overflow-x: auto; margin-left: auto; scrollbar-width: none; }
+  header nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; white-space: nowrap; }
+  header nav a:hover { color: var(--accent); }
+  .theme { font: 500 0.8rem var(--body); background: none; color: var(--muted); border: 1px solid var(--line); padding: 0.25rem 0.65rem; border-radius: 4px; cursor: pointer; }
+
+  .hero { padding: 4rem 0 3.5rem; }
+  .hero .wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 3.5rem; align-items: center; }
+  .where { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.95rem; }
+  h1 { font: 700 clamp(2.4rem, 5.6vw, 4rem)/1.05 var(--head); letter-spacing: -0.02em; margin: 0 0 1.25rem; }
+  .roles { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 0 0 1.5rem; }
+  .roles li { background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.85rem; font-size: 0.9rem; }
+  .hero p.intro { font-size: 1.15rem; max-width: 52ch; margin: 0 0 1.75rem; }
+  .btns { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .btn { display: inline-block; padding: 0.65rem 1.2rem; border-radius: 6px; font-weight: 600; font-size: 0.95rem; text-decoration: none; border: 1px solid var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); }
+  .btn.ghost { color: var(--accent); }
+  .frame { border-radius: 10px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); box-shadow: 14px 14px 0 var(--panel); }
+  .frame img { width: 100%; aspect-ratio: 1/1.08; object-fit: cover; object-position: center top; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 3rem; }
+  .stats div { background: var(--bg); padding: 1rem 1.25rem; }
+  .stats b { display: block; font: 700 1.1rem var(--head); }
+  .stats span { color: var(--muted); font-size: 0.875rem; }
+
+  section.s { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+  h2 { font: 700 clamp(1.6rem, 3vw, 2.1rem)/1.15 var(--head); letter-spacing: -0.01em; margin: 0 0 0.5rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; max-width: 60ch; }
+  h3 { font: 700 1.15rem/1.35 var(--head); margin: 0; }
+
+  .about { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 3rem; align-items: start; }
+  .about p { max-width: 62ch; margin: 0 0 1rem; }
+  .about img { border-radius: 10px; border: 1px solid var(--line); aspect-ratio: 4/5; object-fit: cover; object-position: center top; width: 100%; }
+
+  details { border-top: 1px solid var(--line); }
+  details:last-of-type { border-bottom: 1px solid var(--line); }
+  summary { cursor: pointer; padding: 1rem 0; font: 700 1.05rem/1.4 var(--head); display: flex; justify-content: space-between; gap: 1rem; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; font: 400 1.4rem/1 var(--body); color: var(--accent); }
+  details[open] summary::after { content: "\2212"; }
+  details .body { padding: 0 0 1.25rem; max-width: 66ch; color: var(--muted); }
+  details .org { font: 500 0.875rem var(--body); color: var(--accent); }
+
+  .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+  .card { border: 1px solid var(--line); border-radius: 8px; padding: 1.25rem; background: var(--bg); }
+  .card h3 { margin-bottom: 0.5rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.97rem; }
+
+  ol.pubs { list-style: none; margin: 0; padding: 0; }
+  .pub { display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; padding: 1.25rem 0; border-top: 1px solid var(--line); }
+  .pub .yr { font: 700 1.05rem var(--head); color: var(--accent); }
+  .pub p { margin: 0.35rem 0 0; font-size: 0.94rem; color: var(--muted); }
+  .pub .me { color: var(--ink); font-weight: 600; }
+  .pub a.t { color: var(--ink); text-decoration: none; }
+  .pub a.t:hover { color: var(--accent); text-decoration: underline; }
+
+  ol.time { list-style: none; margin: 0; padding: 0 0 0 1.5rem; border-left: 2px solid var(--line); }
+  ol.time li { position: relative; padding: 0 0 1.75rem; }
+  ol.time li::before { content: ""; position: absolute; left: calc(-1.5rem - 6px); top: 0.55rem; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+  .when { font-size: 0.875rem; color: var(--muted); }
+  ol.time p { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.95rem; max-width: 66ch; }
+  .org2 { font-weight: 500; }
+
+  .grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+  ul.plain { margin: 0.5rem 0 0; padding-left: 1.1rem; color: var(--muted); font-size: 0.95rem; }
+  ul.plain li { margin-bottom: 0.3rem; }
+
+  .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+  .gallery img { border-radius: 8px; border: 1px solid var(--line); aspect-ratio: 4/5; object-fit: cover; object-position: center top; width: 100%; }
+
+  .contact a.mail { font: 700 clamp(1.3rem, 3vw, 1.9rem) var(--head); word-break: break-all; }
+  footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: 0.875rem; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+
+  @media (max-width: 820px) {
+    .hero .wrap, .about { grid-template-columns: 1fr; gap: 2rem; }
+    .hero { padding-top: 2.5rem; }
+    .frame { max-width: 360px; box-shadow: 10px 10px 0 var(--panel); }
+    .cols, .grid3 { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr; }
+    .pub { grid-template-columns: 1fr; gap: 0; }
+    .about img { max-width: 360px; }
+    .brand { display: none; }
+    header nav { margin-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home">M. R. Rukon</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Toggle dark mode">Theme</button>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="where">Staff Researcher at BRAC Institute of Educational Development · Dhaka, Bangladesh</p>
+        <h1>Md. Rukonozzaman Rukon</h1>
+        <ul class="roles" aria-label="Roles">
+          <li>Statistician</li>
+          <li>Survey researcher</li>
+          <li>Data analyst</li>
+        </ul>
+        <p class="intro">I design surveys, clean and analyze data, and write research reports for studies on education, health and child development in Bangladesh.</p>
+        <div class="btns">
+          <a class="btn primary" href="#research">See my research</a>
+          <a class="btn ghost" href="#publications">Read publications</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="frame"><img src="assets/portrait.jpg" alt="Portrait of Md. Rukonozzaman Rukon in a blue checked shirt" width="900" height="961"></div>
+    </div>
+    <div class="wrap">
+      <div class="stats" style="width:100%">
+        <div><b>Staff Researcher</b><span>BRAC IED, since March 2025</span></div>
+        <div><b>MSc in Statistics</b><span>Jagannath University, 2021</span></div>
+        <div><b>4 journal articles</b><span>Health and public health research</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s" id="about">
+    <div class="wrap about">
+      <img src="assets/standing.jpg" alt="Rukon standing in a blue checked shirt against a light background" loading="lazy" width="1000" height="1500">
+      <div>
+        <h2>About me</h2>
+        <p class="sub">Statistics, survey methods and applied research.</p>
+        <p>I am a statistician with an MSc and BSc in Statistics from Jagannath University. Since March 2025 I have worked as a Staff Researcher at the BRAC Institute of Educational Development (BRAC IED), where I contribute to data management, analysis and reporting for education studies.</p>
+        <p>Before BRAC IED, I worked at SURCH, a survey research house, on UNICEF-funded baseline and assessment surveys. I also supervised fieldwork and assisted with analysis of national survey data such as the Bangladesh Demographic and Health Surveys (BDHS).</p>
+        <p>I enjoy teaching data analysis, and I have trained learners in SPSS and R.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="s" id="research">
+    <div class="wrap">
+      <h2>Research projects</h2>
+      <p class="sub">Selected studies where I worked on data management, analysis or reporting. Open a project to read my role.</p>
+
+      <details>
+        <summary>Short- and Long-Term Impacts of BRAC Play Labs in Government Primary Schools (End-line 2025)</summary>
+        <div class="body"><span class="org">BRAC IED · 2026</span>
+          <p>I was a member of the research team for this end-line evaluation. My work included reviewing questionnaires, training field research assistants, checking data quality and accuracy, cleaning data, running statistical analysis, interpreting findings and contributing to the final report.</p></div>
+      </details>
+      <details>
+        <summary>Parental Motivation for Choosing Schools for Enrolling Their Children at an Early Age (5–8)</summary>
+        <div class="body"><span class="org">BRAC IED · 2026</span>
+          <p>I took part in this qualitative study as a member of the research team.</p></div>
+      </details>
+      <details>
+        <summary>An Evaluation of BRAC’s Accelerated Learning Initiative Addressing COVID-19-Related Educational Crises</summary>
+        <div class="body"><span class="org">BRAC IED · Funded by BRAC Education Programme · 2025</span>
+          <p>I contributed to data analysis as a member of the research team.</p></div>
+      </details>
+      <details>
+        <summary>Need Assessment of Childcare Support Services for Semi-Urban and Rural Female Youth Not in Education, Employment, or Training (NEET)</summary>
+        <div class="body"><span class="org">BRAC IED · Funded by the World Bank · 2025</span>
+          <p>I was a member of the research team with substantial involvement in data analysis.</p></div>
+      </details>
+      <details>
+        <summary>Rapid Assessment of Knowledge, Attitude, Practices (KAP) and Healthcare Seeking Behavior on Pediatric Non-Communicable Diseases</summary>
+        <div class="body"><span class="org">SURCH · Funded by UNICEF · 2024</span>
+          <p>I took part in the literature review, prepared questionnaires, built the CSPro dictionary and questionnaire form, joined the field test and analyzed the data.</p></div>
+      </details>
+      <details>
+        <summary>Baseline Survey: Climate-Smart WASH Services in Two Low-Income Communities in Khulna City Corporation</summary>
+        <div class="body"><span class="org">SURCH · Funded by UNICEF · 2024</span>
+          <p>I prepared the questionnaire form in CSPro and worked on coding, editing, cleaning and analyzing data, and on report writing.</p></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="s" id="expertise">
+    <div class="wrap">
+      <h2>Expertise and tools</h2>
+      <p class="sub">What I use to move a study from design to final report.</p>
+      <div class="cols">
+        <div class="card"><h3>Research methods</h3><p>Research methodology, survey design and sampling, data cleaning and data handling, data analysis and report writing.</p></div>
+        <div class="card"><h3>Statistics and machine learning</h3><p>Statistical modeling, data visualization and machine learning algorithms, including count regression, multilevel models and classification.</p></div>
+        <div class="card"><h3>Software and programming</h3><p>SPSS, Stata, R and Python. MS Word, Excel and PowerPoint.</p></div>
+        <div class="card"><h3>Data collection and visualization</h3><p>CSPro, KoboToolbox and SurveyCTO for data collection. Tableau and Power BI for dashboards and charts.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s" id="publications">
+    <div class="wrap">
+      <h2>Publications</h2>
+      <p class="sub">Peer-reviewed journal articles, newest first. My name is in bold.</p>
+      <ol class="pubs">
+        <li class="pub"><span class="yr">2024</span><div>
+          <h3><a class="t" href="https://doi.org/10.1093/inthealth/ihae016">Individual- and community-level factors associated with the presence of adequate iodized salt in households in Bangladesh: a multilevel modelling approach</a></h3>
+          <p>I. Haq, M. I. Hossain, <span class="me">M. R. Rukon</span>, M. J. Habib, T. A. Tithy, M. A. Hasan, S. Akter, M. R. A. Rejvi, M. S. G. Uddin, M. M. R. Sarker, F. Wagnew and A. Talukder. <em>International Health</em>, ihae016.</p></div></li>
+        <li class="pub"><span class="yr">2023</span><div>
+          <h3><a class="t" href="https://doi.org/10.1093/inthealth/ihad107">Application of a count regression model to identify the risk factors of under-five child morbidity in Bangladesh</a></h3>
+          <p>M. I. Hossain, A. S. M. R. Rouf, <span class="me">M. R. Rukon</span>, S. Sarkar, I. Haq, M. J. Habib, F. A. Zinia, T. A. Tithy, A. Islam, M. A. Hasan, M. Moshiur and M. S. A. Hisbullah. <em>International Health</em>, ihad107.</p></div></li>
+        <li class="pub"><span class="yr">2022</span><div>
+          <h3><a class="t" href="https://ijmsweb.com/determinants-of-quality-of-life-among-covid-19-patients-in-southwestern-region-of-bangladesh/">Determinants of quality of life among COVID-19 patients in Southwestern region of Bangladesh</a></h3>
+          <p>M. I. H. Methun, M. S. G. Uddin, I. Haq, M. A. Noor, M. J. Habib, M. I. Hossain, A. A. S. Saleheen, S. Roy, S. S. Ume, <span class="me">M. R. Rukon</span>, M. A. Hasan and M. J. Alam. <em>Indian Journal of Medical Sciences</em>. DOI: 10.25259/IJMS_337_2021.</p></div></li>
+        <li class="pub"><span class="yr">2022</span><div>
+          <h3><a class="t" href="https://doi.org/10.1155/2022/1460908">Performance evaluation of machine learning algorithm for classification of unintended pregnancy among married women in Bangladesh</a></h3>
+          <p>M. I. Hossain, M. J. Habib, A. A. S. Saleheen, M. Kamruzzaman, A. Rahman, S. Roy, M. A. Hasan, I. Haq, M. I. H. Methun, M. I. H. Nayan and <span class="me">M. R. Rukon</span>. <em>Journal of Healthcare Engineering</em>.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="s" id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+      <p class="sub">Research, survey and teaching roles, most recent first.</p>
+      <ol class="time">
+        <li><span class="when">March 2025 to present</span><h3>Staff Researcher</h3><p class="org2">BRAC Institute of Educational Development</p></li>
+        <li><span class="when">December 2023 to February 2025</span><h3>Assistant Research Officer</h3><p class="org2">SURCH: A House of Survey Research</p></li>
+        <li><span class="when">February to May 2024</span><h3>Research Assistant</h3><p>Diabetes and prediabetes prevalence among young and middle-aged adults in Bangladesh: an analysis of Bangladesh Demographic and Health Surveys (BDHS).</p></li>
+        <li><span class="when">November to December 2023</span><h3>Field Research Supervisor</h3><p>Food safety knowledge, attitudes and practices among employees and export performance of processed food industries.</p></li>
+        <li><span class="when">January to April 2023</span><h3>Research Assistant</h3><p>Double burden of malnutrition among Bangladeshi adults: a pooled analysis from BDHS.</p></li>
+        <li><span class="when">November to December 2022</span><h3>Field Research Supervisor</h3><p>Psychosocial problems among school-going adolescents in Dhaka City, Bangladesh.</p></li>
+        <li><span class="when">July to August 2022</span><h3>Research Assistant</h3><p>Assessment of viewership of UNICEF Bangladesh’s Online Safety Intervention (Child Protection Section).</p></li>
+      </ol>
+
+      <h3 style="margin:1rem 0 0.75rem">Teaching</h3>
+      <ul class="plain">
+        <li>Instructor, Data Analysis with SPSS and R Programming, Bangladesh Institute of Innovative Health Research (BIIHR), 2024.</li>
+        <li>Instructor, Research Project with SPSS, Advance Research and Innovation (ARI), 2025.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="s" id="education">
+    <div class="wrap">
+      <h2>Education and training</h2>
+      <div class="grid3">
+        <div class="card"><h3>MSc in Statistics</h3><p>Jagannath University, Dhaka<br>September 2021 · CGPA 3.08 / 4.00</p><p style="margin-top:0.6rem">Thesis: GEE-based zero-inflated Gaussian model for analyzing longitudinal microbiome data (unpublished).</p></div>
+        <div class="card"><h3>BSc in Statistics</h3><p>Jagannath University, Dhaka<br>March 2020 · CGPA 3.24 / 4.00</p></div>
+        <div class="card"><h3>Courses</h3>
+          <ul class="plain">
+            <li>Fundamentals of Research Methodology, BIGM</li>
+            <li>Introduction to Data Analysis with Python on Google Colab, BIGD</li>
+            <li>Foundation of Early Childhood Development, BRAC IED</li>
+          </ul></div>
+      </div>
+
+      <h3 style="margin:2.5rem 0 0.5rem">Leadership and activities</h3>
+      <ul class="plain">
+        <li>Convener, Statistics Club, Jagannath University (October 2023 to March 2024).</li>
+        <li>Campus Ambassador, National STEAM Olympiad (May 2023 to January 2024).</li>
+        <li>Ambassador, Be Researchers BD (2022).</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="s contact" id="contact">
+    <div class="wrap about">
+      <img src="assets/seated.jpg" alt="Rukon seated on a stool, smiling at the camera" loading="lazy" width="1000" height="1500">
+      <div>
+        <h2>Contact</h2>
+        <p class="sub">I’m open to research collaboration, survey and data analysis projects, and training requests.</p>
+        <a class="mail" href="mailto:rukon.stat.jnu@gmail.com">rukon.stat.jnu@gmail.com</a>
+        <p style="margin-top:1rem">Based in Dhaka, Bangladesh.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>© <span id="yr">2026</span> Md. Rukonozzaman Rukon</span><a href="#home">Back to top</a></div>
+</footer>
+
+<script>
+  var root = document.documentElement;
+  document.getElementById('theme').addEventListener('click', function () {
+    var dark = getComputedStyle(root).getPropertyValue('--bg').trim() === '#0e161f';
+    root.setAttribute('data-theme', dark ? 'light' : 'dark');
+  });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
